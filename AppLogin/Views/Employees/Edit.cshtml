@@ -42,12 +42,12 @@
                         <input class="form-control mb-3" type="email" placeholder="Email" required asp-for="Email" />
                     </div>
                     <div class="mb-3">
-                        <button class="btn btn-primary" type="submit">Save</button>
-                        <a asp-controller="Employees" asp-action="DashBoard" class="btn btn-warning">Back To DashBoard</a>
+                        <input class="form-check-input mb-3" type="checkbox" asp-for="Status" />
+                        <label class="form-check-label" for="chkStatus">Status</label>
                     </div>
                     <div class="mb-3">
-                        <label class="form-check-label" for="chkStatus">Status</label>
-                        <input class="form-check-input mb-3" type="checkbox" asp-for="Status" />
+                        <button class="btn btn-success" type="submit">Save</button>
+                        <a asp-controller="Employees" asp-action="DashBoard" class="btn btn-warning">Cancel</a>
                     </div>
                 </form>
             </div>

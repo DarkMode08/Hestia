@@ -51,9 +51,27 @@ namespace AppLogin.Controllers
         [HttpPost]
         public async Task<IActionResult> Edit(_Employees employees)
         {
+            if (!ModelState.IsValid)
+            {
+                return View(employees);
+            }
+
+            // Esto asegura que solo los campos modificados se actualizarán
+            var employeeToUpdate = await _dbContext.Employees.FirstAsync(e => e.ID_Employees == employees.ID_Employees);
+            if (employeeToUpdate != null)
+            {
+                // Actualizar cada propiedad individualmente
+                employeeToUpdate.Status = employees.Status;
+                // Otros campos a actualizar
+
+                await _dbContext.SaveChangesAsync();
+            }
+            return RedirectToAction(nameof(DashBoard));
+            /*
             _dbContext.Employees.Update(employees);
             await _dbContext.SaveChangesAsync();
             return RedirectToAction(nameof(DashBoard));
+            */
         }
 
         [HttpGet]
