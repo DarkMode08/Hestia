@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HermesModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Customers">
+    <Key>
+      <PropertyRef Name="ID_Customers" />
+    </Key>
+    <Property Name="ID_Customers" Type="int" Nullable="false" />
+    <Property Name="FirstName" Type="varchar" MaxLength="50" />
+    <Property Name="LastName" Type="varchar" MaxLength="50" />
+    <Property Name="DateOfBirth" Type="date" />
+    <Property Name="Email" Type="varchar" MaxLength="50" />
+    <Property Name="Phone" Type="bigint" />
+    <Property Name="Customer_Address" Type="varchar" MaxLength="50" />
+    <Property Name="City" Type="varchar" MaxLength="50" />
+    <Property Name="AccountType" Type="varchar" MaxLength="50" />
+    <Property Name="AccountNumber" Type="int" />
+    <Property Name="AccountBalance" Type="decimal" Precision="9" Scale="2" />
+    <Property Name="DateOpened" Type="date" />
+    <Property Name="LastTransactionDate" Type="date" />
+    <Property Name="ClientStatus" Type="varchar" MaxLength="50" />
+    <Property Name="PostalCode" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Employees">
+    <Key>
+      <PropertyRef Name="ID_Employees" />
+    </Key>
+    <Property Name="ID_Employees" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FirstName" Type="varchar" MaxLength="50" />
+    <Property Name="LastName" Type="varchar" MaxLength="50" />
+    <Property Name="Gender" Type="varchar" MaxLength="10" />
+    <Property Name="Position" Type="varchar" MaxLength="50" />
+    <Property Name="HireDate" Type="date" />
+    <Property Name="Salary" Type="decimal" Precision="9" Scale="2" />
+    <Property Name="City" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityContainer Name="HermesModelStoreContainer">
+    <EntitySet Name="Customers" EntityType="Self.Customers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Employees" EntityType="Self.Employees" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,84 @@
+[
+  {
+    "ContainingType": "BlazorApp.Server.Controllers.AccessController",
+    "Method": "Register",
+    "RelativePath": "api/Access",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BlazorApp.Server.Controllers.AccessController",
+    "Method": "Register",
+    "RelativePath": "api/Access",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BlazorApp.Share._UserViewModels",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BlazorApp.Server.Controllers.AccessController",
+    "Method": "Login",
+    "RelativePath": "api/Access",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BlazorApp.Server.Controllers.AccessController",
+    "Method": "Login",
+    "RelativePath": "api/Access",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BlazorApp.Share.LoginViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BlazorApp.Server.Controllers.HomeController",
+    "Method": "Index",
+    "RelativePath": "api/Home",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BlazorApp.Server.Controllers.HomeController",
+    "Method": "Privacy",
+    "RelativePath": "api/Home",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BlazorApp.Server.Controllers.HomeController",
+    "Method": "Exit",
+    "RelativePath": "api/Home",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

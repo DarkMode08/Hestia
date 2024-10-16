@@ -1,0 +1,6 @@
+C:\Users\Michael_Rodriguez\source\repos\WPF_BN\WPF_BN\obj\Debug\net461\WPF_BN.csproj.AssemblyReference.cache
+C:\Users\Michael_Rodriguez\source\repos\WPF_BN\WPF_BN\obj\Debug\net461\MainWindow.g.cs
+C:\Users\Michael_Rodriguez\source\repos\WPF_BN\WPF_BN\obj\Debug\net461\View\LoginView.g.cs
+C:\Users\Michael_Rodriguez\source\repos\WPF_BN\WPF_BN\obj\Debug\net461\App.g.cs
+C:\Users\Michael_Rodriguez\source\repos\WPF_BN\WPF_BN\obj\Debug\net461\WPF_BN_MarkupCompile.cache
+C:\Users\Michael_Rodriguez\source\repos\WPF_BN\WPF_BN\obj\Debug\net461\WPF_BN_MarkupCompile.lref

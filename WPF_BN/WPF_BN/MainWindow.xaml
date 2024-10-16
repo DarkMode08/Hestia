@@ -1,0 +1,356 @@
+﻿<Window x:Class="WPF_BN.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_BN"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="832" Width="1280"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        Background="Transparent"
+        AllowsTransparency="True"
+        MouseDown="Windows_MouseDown">
+    <Grid>
+        <Border x:Name="_Border0"
+                CornerRadius="10"
+                Background="#131316"
+                BorderThickness="2">
+
+            <Border.BorderBrush>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="White" Offset="0"/>
+                    <GradientStop Color="#B5C4FF" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.BorderBrush>
+        
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="10"/>
+                        <ColumnDefinition Width="30"/>
+                        <ColumnDefinition Width="30"/>
+                        <ColumnDefinition Width="30"/>
+                        <ColumnDefinition Width="30"/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition Width="20"/>
+                        <ColumnDefinition Width="20"/>
+                        <ColumnDefinition Width="20"/>
+                        <ColumnDefinition Width="10"/>
+                    </Grid.ColumnDefinitions>
+                
+                    <Button x:Name="btnMinimize"
+                                BorderThickness="0"
+                                FontFamily="Inter"
+                                Cursor="Hand"
+                                Grid.Column="6"
+                                Click="btnMinimize_click" HorizontalAlignment="Center" Width="30">
+
+                            <Button.Style>
+                                <Style TargetType="Button">
+                                    <Setter Property="Background" Value="White"/>
+                                    <Style.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Background" Value="YellowGreen"/>
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Button.Style>
+
+                            <Button.Template>
+                                <ControlTemplate TargetType="Button">
+                                    <Border Width="12" Height="12"
+                                            CornerRadius="9"
+                                            Background="{TemplateBinding Background}">
+                                        <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                                    </Border>
+                                </ControlTemplate>
+                            </Button.Template>
+                        </Button>
+
+                    <Button x:Name="btnMaximize"
+                                  BorderThickness="0"
+                                  Cursor="Hand"
+                                  Grid.Column="7"
+                                  Click="btnMaximize_click">
+
+                            <Button.Style>
+                                <Style TargetType="Button">
+                                    <Setter Property="Background" Value="White"/>
+                                    <Style.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Background" Value="Orange"/>
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Button.Style>
+
+                            <Button.Template>
+                                <ControlTemplate TargetType="Button">
+                                    <Border Width="12" Height="12"
+                                            CornerRadius="9"
+                                            Background="{TemplateBinding Background}">
+                                        <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                                    </Border>
+                                </ControlTemplate>
+                            </Button.Template>
+                        </Button>
+
+                    <Button x:Name="btnClose"
+                                BorderThickness="0"
+                                Cursor="Hand"
+                                Grid.Column="8"
+                                Click="btnClose_click" HorizontalAlignment="Center" Width="30">
+
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Background" Value="White"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="OrangeRed"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border Width="12" Height="12"
+                                CornerRadius="9"
+                                Background="{TemplateBinding Background}">
+                                    <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+
+                    <Button x:Name="btnCollapse"
+                                BorderThickness="0"
+                                Grid.Column="1"
+                                Cursor="Hand"
+                                Click="btnCollapse_Click"
+                                HorizontalAlignment="Center"
+                                Width="24" Height="24">
+
+                            <Image Source="/Image/CollapseLeft.png" Width="24" Height="24"/>
+
+                            <Button.Style>
+                                <Style TargetType="Button">
+                                    <Setter Property="Background" Value="Transparent"/>
+                                </Style>
+                            </Button.Style>
+                        </Button>
+
+                    <Button x:Name="btnFiles"
+                                BorderThickness="0"
+                                Grid.Column="2"
+                                Cursor="Hand"
+                                Click="btnFiles_Click" HorizontalAlignment="Center" Width="24" Height="24">
+
+                            <Image Source="/Image/Files.png" Width="24" Height="24"/>
+
+                            <Button.Style>
+                                <Style TargetType="Button">
+                                    <Setter Property="Background" Value="Transparent"/>
+                                </Style>
+                            </Button.Style>
+                        </Button>
+
+                    <Button x:Name="btnSearch"
+                                BorderThickness="0"
+                                Grid.Column="3"
+                                Cursor="Hand"
+                                Click="btnSearch_Click" HorizontalAlignment="Center" Width="24" Height="24">
+
+                            <Image Source="/Image/Search.png" Width="24" Height="24"/>
+
+                            <Button.Style>
+                                <Style TargetType="Button">
+                                    <Setter Property="Background" Value="Transparent"/>
+                                </Style>
+                            </Button.Style>
+                        </Button>
+
+                    <Button x:Name="btnBookMark"
+                            BorderThickness="0"
+                            Grid.Column="4"
+                            Cursor="Hand"
+                            Click="btnBookMark_Click" HorizontalAlignment="Center" Width="24" Height="24">
+
+                        <Image Source="/Image/BockMark.png" Width="24" Height="24"/>
+
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Background" Value="Transparent"/>
+                            </Style>
+                        </Button.Style>
+                    </Button>
+
+                </Grid>
+
+                <StackPanel x:Name="FileListStackPanel"
+                            Width="213"
+                            Grid.Row="1"
+                            Orientation="Vertical" VerticalAlignment="Top" HorizontalAlignment="Left">
+
+                    <Separator Height="2" Width="213" />
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="30"/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition Width="30"/>
+                            <ColumnDefinition Width="30"/>
+                            <ColumnDefinition Width="30"/>
+                            <ColumnDefinition Width="30"/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+
+                        <Button x:Name="btnNewNote"
+                                BorderThickness="0"
+                                Grid.Column="1"
+                                Cursor="Hand"
+                                Click="btnNewNote_Click" HorizontalAlignment="Center" Width="24" Height="24">
+
+                            <Image Source="/Image/NewNote.png" Width="24" Height="24"/>
+
+                            <Button.Style>
+                                <Style TargetType="{x:Type Button}">
+                                    <Setter Property="Background" Value="Transparent"/>
+                                </Style>
+                            </Button.Style>
+                        </Button>
+
+                        <Button x:Name="btnNewFolder"
+                                BorderThickness="0"
+                                Grid.Column="2"
+                                Cursor="Hand"
+                                Click="btnNewFolder_Click" HorizontalAlignment="Center" Width="24" Height="24">
+
+                            <Image Source="/Image/NewFolder.png" Width="24" Height="24"/>
+
+                            <Button.Style>
+                                <Style TargetType="{x:Type Button}">
+                                    <Setter Property="Background" Value="Transparent"/>
+                                </Style>
+                            </Button.Style>
+                        </Button>
+
+                        <Button x:Name="btnChangeSortOrder"
+                                BorderThickness="0"
+                                Grid.Column="3"
+                                Cursor="Hand"
+                                Click="btnChangeSortOrder_Click" HorizontalAlignment="Center" Width="24" Height="24">
+
+                            <Image Source="/Image/ChangeOrder.png" Width="24" Height="24"/>
+
+                            <Button.Style>
+                                <Style TargetType="{x:Type Button}">
+                                    <Setter Property="Background" Value="Transparent"/>
+                                </Style>
+                            </Button.Style>
+                        </Button>
+
+                        <Button x:Name="btnCollapseAll"
+                                BorderThickness="0"
+                                Grid.Column="4"
+                                Cursor="Hand"
+                                Click="btnCollapseAll_Click" HorizontalAlignment="Center" Width="24" Height="24">
+
+                            <Image Source="/Image/CollapseAll.png" Width="24" Height="24"/>
+
+                            <Button.Style>
+                                <Style TargetType="{x:Type Button}">
+                                    <Setter Property="Background" Value="Transparent"/>
+                                </Style>
+                            </Button.Style>
+                        </Button>
+                    </Grid>
+
+                    <Grid Margin="0,738,0,-738" Grid.Row="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="30"/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition Width="140"/>
+                            <ColumnDefinition Width="20"/>
+                            <ColumnDefinition Width="20"/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+
+                        <Button x:Name="btnViewVault"
+                                    BorderThickness="0"
+                                    Grid.Column="1"
+                                    Cursor="Hand"
+                                    Click="btnViewVault_Click" HorizontalAlignment="Stretch" Margin="4">
+
+                            <TextBlock Text="Vault"
+                                       VerticalAlignment="Center"
+                                       Foreground="White"
+                                       FontSize="12"
+                                       FontFamily="Inter"/>
+
+                            <Button.Style>
+                                <Style TargetType="{x:Type Button}">
+                                    <Setter Property="Background" Value="Transparent"/>
+                                </Style>
+                            </Button.Style>
+                        </Button>
+
+                        <Button x:Name="btnHelp"
+                                    BorderThickness="0"
+                                    Grid.Column="2"
+                                    Cursor="Hand"
+                                    Click="btnCollapseAll_Click" HorizontalAlignment="Center" Width="15" Height="15">
+
+                            <Image Source="/Image/Help.png" Width="15" Height="14"/>
+
+                            <Button.Style>
+                                <Style TargetType="{x:Type Button}">
+                                    <Setter Property="Background" Value="Transparent"/>
+                                </Style>
+                            </Button.Style>
+                        </Button>
+
+                        <Button x:Name="btnSettings"
+                                    BorderThickness="0"
+                                    Grid.Column="3"
+                                    Cursor="Hand"
+                                    Click="btnSettings_Click" HorizontalAlignment="Center" Width="16" Height="16">
+
+                            <Image Source="/Image/Settings.png" Width="15" Height="15"/>
+
+                            <Button.Style>
+                                <Style TargetType="{x:Type Button}">
+                                    <Setter Property="Background" Value="Transparent"/>
+                                </Style>
+                            </Button.Style>
+                        </Button>
+                    </Grid>
+
+                
+                </StackPanel>
+
+                <RichTextBox x:Name="RichTextBox1"
+                             Margin="213,2.5,0,0" Grid.Row="1"
+                             Background="#1B1B1F" TextChanged="RichTextBox_TextChanged_1"
+                             Foreground="White">
+
+                </RichTextBox>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

@@ -1,0 +1,56 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>False</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Image\BockMark.png" />
+    <None Remove="Image\ChangeOrder.png" />
+    <None Remove="Image\Collapse.png" />
+    <None Remove="Image\CollapseAll.png" />
+    <None Remove="Image\CollapseLeft.png" />
+    <None Remove="Image\Files.png" />
+    <None Remove="Image\Help.png" />
+    <None Remove="Image\NewFolder.png" />
+    <None Remove="Image\NewNote.png" />
+    <None Remove="Image\Search.png" />
+    <None Remove="Image\Settings.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <COMReference Include="{215d64d2-031c-33c7-96e3-61794cd1ee61}">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>4</VersionMinor>
+      <VersionMajor>2</VersionMajor>
+      <Guid>215d64d2-031c-33c7-96e3-61794cd1ee61</Guid>
+    </COMReference>
+  </ItemGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="EntityFramework" Version="6.5.1" />
+	  <PackageReference Include="SharpVectors.Wpf" Version="1.8.4.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Security" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Image\BockMark.png" />
+    <Resource Include="Image\ChangeOrder.png" />
+    <Resource Include="Image\CollapseAll.png" />
+    <Resource Include="Image\CollapseLeft.png" />
+    <Resource Include="Image\Files.png" />
+    <Resource Include="Image\Help.png" />
+    <Resource Include="Image\NewFolder.png" />
+    <Resource Include="Image\NewNote.png" />
+    <Resource Include="Image\Search.png" />
+    <Resource Include="Image\Settings.png" />
+  </ItemGroup>
+
+</Project>
