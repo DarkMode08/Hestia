@@ -1,0 +1,59 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model List<AppLogin.Models._Employees>;
+
+        <div class="table-responsive small">
+                <a asp-controller="Employees" asp-action="NewEmployee" class="btn btn-success">Create New Employee</a>
+        <table class="table table-striped table-sm">
+          <thead>
+            <tr>
+              <th scope="col">ID_Employees</th>
+              <th scope="col">Status</th>
+              <th scope="col">FirstName</th>
+              <th scope="col">LastName</th>
+              <th scope="col">Gender</th>
+              <th scope="col">Position</th>
+              <th scope="col">HireDate</th>
+              <th scope="col">Salary</th>
+              <th scope="col">City</th>
+              <th scope="col">Email</th>
+            </tr>
+          </thead>
+          <tbody>
+                @foreach (var item in Model)
+                { 
+                        <tr>
+                          <td>@item.ID_Employees</td>
+                              <td>@(item.Status == "Active" ? "Active" : "Inactive")</td>
+                          <td>@item.FirstName</td>
+                          <td>@item.LastName</td>
+                          <td>@item.Gender</td>
+                          <td>@item.Position</td>
+                          <td>@item.HireDate</td>
+                          <td>@item.Salary</td>
+                          <td>@item.City</td>
+                          <td>@item.Email</td>
+                          <td>
+                            <div class="btn-group" role="group">
+                                <a asp-controller="Employees" asp-action="Edit" asp-route-id="@item.ID_Employees" class="btn btn-warning">Edit</a>
+                                <a asp-controller="Employees" asp-action="Delete" asp-route-id="@item.ID_Employees" onclick="return ConfirmDelete()" class="btn btn-danger">Delete</a>
+                            </div>
+                         </td>
+                        </tr>
+                }
+          </tbody>
+        </table>
+      </div>
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+        @section Scripts{
+            <script>
+                function ConfirmDelete(){
+                        return Confirm("Are you sure you want to delete this Employee?")
+                }
+            </script>
+        }
