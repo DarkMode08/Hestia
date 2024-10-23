@@ -5,10 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{821551FD-25C6-4DBC-89F0-A2EC20E014DD}|Contacts_Agenda.csproj|c:\\users\\michael_rodriguez\\source\\repos\\contacts_agenda\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{821551FD-25C6-4DBC-89F0-A2EC20E014DD}|Contacts_Agenda.csproj|solutionrelative:controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{821551FD-25C6-4DBC-89F0-A2EC20E014DD}|Contacts_Agenda.csproj|c:\\users\\michael_rodriguez\\source\\repos\\contacts_agenda\\models\\contacts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{821551FD-25C6-4DBC-89F0-A2EC20E014DD}|Contacts_Agenda.csproj|solutionrelative:models\\contacts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,28 +14,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Contacts.cs",
-              "DocumentMoniker": "C:\\Users\\Michael_Rodriguez\\source\\repos\\Contacts_Agenda\\Models\\Contacts.cs",
-              "RelativeDocumentMoniker": "Models\\Contacts.cs",
-              "ToolTip": "C:\\Users\\Michael_Rodriguez\\source\\repos\\Contacts_Agenda\\Models\\Contacts.cs",
-              "RelativeToolTip": "Models\\Contacts.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T01:01:15.111Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Document",
@@ -47,9 +26,9 @@
               "Title": "ContactsController.cs",
               "DocumentMoniker": "C:\\Users\\Michael_Rodriguez\\source\\repos\\Contacts_Agenda\\Controllers\\ContactsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ContactsController.cs",
-              "ToolTip": "C:\\Users\\Michael_Rodriguez\\source\\repos\\Contacts_Agenda\\Controllers\\ContactsController.cs*",
-              "RelativeToolTip": "Controllers\\ContactsController.cs*",
-              "ViewState": "AgIAABsAAAAAAAAAAAD4vy4AAABXAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Michael_Rodriguez\\source\\repos\\Contacts_Agenda\\Controllers\\ContactsController.cs",
+              "RelativeToolTip": "Controllers\\ContactsController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAqwDcAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-14T00:39:15.791Z",
               "EditorCaption": ""

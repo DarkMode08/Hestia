@@ -74,3 +74,4 @@ C:\Users\Michael_Rodriguez\source\repos\Contacts_Agenda\obj\Debug\net7.0\refint\
 C:\Users\Michael_Rodriguez\source\repos\Contacts_Agenda\obj\Debug\net7.0\Contacts_Agenda.pdb
 C:\Users\Michael_Rodriguez\source\repos\Contacts_Agenda\obj\Debug\net7.0\Contacts_Agenda.genruntimeconfig.cache
 C:\Users\Michael_Rodriguez\source\repos\Contacts_Agenda\obj\Debug\net7.0\ref\Contacts_Agenda.dll
+C:\Users\Michael_Rodriguez\source\repos\Contacts_Agenda\obj\Debug\net7.0\Contacts_Agenda.sourcelink.json
