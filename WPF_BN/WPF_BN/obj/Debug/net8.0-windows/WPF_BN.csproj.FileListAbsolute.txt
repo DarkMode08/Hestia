@@ -39,3 +39,4 @@ C:\Users\Michael_Rodriguez\source\repos\WPF_BN\WPF_BN\obj\Debug\net8.0-windows\W
 C:\Users\Michael_Rodriguez\source\repos\WPF_BN\WPF_BN\obj\Debug\net8.0-windows\WPF_BN.genruntimeconfig.cache
 C:\Users\Michael_Rodriguez\source\repos\WPF_BN\WPF_BN\obj\Debug\net8.0-windows\ref\WPF_BN.dll
 C:\Users\Michael_Rodriguez\source\repos\WPF_BN\WPF_BN\obj\Debug\net8.0-windows\WPF_BN.csproj.ResolveComReference.cache
+C:\Users\Michael_Rodriguez\source\repos\WPF_BN\WPF_BN\obj\Debug\net8.0-windows\WPF_BN.sourcelink.json

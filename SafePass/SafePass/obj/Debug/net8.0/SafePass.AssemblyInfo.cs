@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SafePass")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+368800f70863d1c0e4350dc6731680ed5d61161d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be0ae7ea4b904ecd5cfdd79b4270ddb9bac840c7")]
 [assembly: System.Reflection.AssemblyProductAttribute("SafePass")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SafePass")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
