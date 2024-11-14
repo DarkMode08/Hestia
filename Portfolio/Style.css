@@ -1,12 +1,14 @@
 body{
     box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
     color: #fff !important;
+    background-color: #090A11 !important;
 }
 /* Nav */
 .navbar{
     padding: 2rem;
-    background: url(Images/Nav.svg) !important;
     height: 60px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .navbar-collapse{
@@ -14,51 +16,29 @@ body{
     justify-content: space-between;
 }
 
+li.nav-item{
+    margin-left: 8px;
+}
+
 /* Seccion Hero */
 section.hero.d-flex.flex-column{
-    background-color: #090A11 !important;
     padding: 150px;
 }
 
 .TitileName{
     font-size: 4rem;
     font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
     font-style: italic;
 }
 
-
-/* Seccion Skills */
-section.SK.align-items-center.justify-content-center.flex-column{
-    background: url(Images/Cover.svg) !important;
-    padding: 100px;
-    display: flex;
-            justify-content: center; /* Centra los iconos horizontalmente */
-            align-items: center;
-            padding: 20px;
-}
-
-div.col-sm-12.row{
-    display: flex;
-            gap: 20px; /* Espacio entre los iconos */
-}
-
-.SkillsH{
-    font-size: 4rem;
-    font-family: "Raleway";
-    font-optical-sizing: auto;font-style: italic;
+.ComentarioHero{
+    font-family: "Lora", sans-serif;
+    font-optical-sizing: Medium;
+    font-style: italic;
 }
 
 /* projects */
-.card-group{
-    background-color: White;
-    text-align: center;
-    margin: 5rem;
-}
 
-.card-img-top{
-    background: #2C2C2C
-}
-
+/* Seccion Skills */
 
 /* Footer*/
