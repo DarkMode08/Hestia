@@ -1,0 +1,12 @@
+C:\Users\Michael_Rodriguez\source\repos\APIMercurio\Mercurio.DAL\bin\Debug\net7.0\Mercurio.DAL.deps.json
+C:\Users\Michael_Rodriguez\source\repos\APIMercurio\Mercurio.DAL\bin\Debug\net7.0\Mercurio.DAL.dll
+C:\Users\Michael_Rodriguez\source\repos\APIMercurio\Mercurio.DAL\bin\Debug\net7.0\Mercurio.DAL.pdb
+C:\Users\Michael_Rodriguez\source\repos\APIMercurio\Mercurio.DAL\obj\Debug\net7.0\Mercurio.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Michael_Rodriguez\source\repos\APIMercurio\Mercurio.DAL\obj\Debug\net7.0\Mercurio.DAL.AssemblyInfoInputs.cache
+C:\Users\Michael_Rodriguez\source\repos\APIMercurio\Mercurio.DAL\obj\Debug\net7.0\Mercurio.DAL.AssemblyInfo.cs
+C:\Users\Michael_Rodriguez\source\repos\APIMercurio\Mercurio.DAL\obj\Debug\net7.0\Mercurio.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Michael_Rodriguez\source\repos\APIMercurio\Mercurio.DAL\obj\Debug\net7.0\Mercurio.DAL.sourcelink.json
+C:\Users\Michael_Rodriguez\source\repos\APIMercurio\Mercurio.DAL\obj\Debug\net7.0\Mercurio.DAL.dll
+C:\Users\Michael_Rodriguez\source\repos\APIMercurio\Mercurio.DAL\obj\Debug\net7.0\refint\Mercurio.DAL.dll
+C:\Users\Michael_Rodriguez\source\repos\APIMercurio\Mercurio.DAL\obj\Debug\net7.0\Mercurio.DAL.pdb
+C:\Users\Michael_Rodriguez\source\repos\APIMercurio\Mercurio.DAL\obj\Debug\net7.0\ref\Mercurio.DAL.dll

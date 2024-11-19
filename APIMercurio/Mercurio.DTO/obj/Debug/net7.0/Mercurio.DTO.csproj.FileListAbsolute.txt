@@ -1,0 +1,12 @@
+C:\Users\Michael_Rodriguez\source\repos\APIMercurio\Mercurio.DTO\bin\Debug\net7.0\Mercurio.DTO.deps.json
+C:\Users\Michael_Rodriguez\source\repos\APIMercurio\Mercurio.DTO\bin\Debug\net7.0\Mercurio.DTO.dll
+C:\Users\Michael_Rodriguez\source\repos\APIMercurio\Mercurio.DTO\bin\Debug\net7.0\Mercurio.DTO.pdb
+C:\Users\Michael_Rodriguez\source\repos\APIMercurio\Mercurio.DTO\obj\Debug\net7.0\Mercurio.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Michael_Rodriguez\source\repos\APIMercurio\Mercurio.DTO\obj\Debug\net7.0\Mercurio.DTO.AssemblyInfoInputs.cache
+C:\Users\Michael_Rodriguez\source\repos\APIMercurio\Mercurio.DTO\obj\Debug\net7.0\Mercurio.DTO.AssemblyInfo.cs
+C:\Users\Michael_Rodriguez\source\repos\APIMercurio\Mercurio.DTO\obj\Debug\net7.0\Mercurio.DTO.csproj.CoreCompileInputs.cache
+C:\Users\Michael_Rodriguez\source\repos\APIMercurio\Mercurio.DTO\obj\Debug\net7.0\Mercurio.DTO.sourcelink.json
+C:\Users\Michael_Rodriguez\source\repos\APIMercurio\Mercurio.DTO\obj\Debug\net7.0\Mercurio.DTO.dll
+C:\Users\Michael_Rodriguez\source\repos\APIMercurio\Mercurio.DTO\obj\Debug\net7.0\refint\Mercurio.DTO.dll
+C:\Users\Michael_Rodriguez\source\repos\APIMercurio\Mercurio.DTO\obj\Debug\net7.0\Mercurio.DTO.pdb
+C:\Users\Michael_Rodriguez\source\repos\APIMercurio\Mercurio.DTO\obj\Debug\net7.0\ref\Mercurio.DTO.dll

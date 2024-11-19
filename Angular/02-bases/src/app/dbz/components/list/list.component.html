@@ -1,0 +1,11 @@
+<h5>Listado</h5>
+<ul class="list-group">
+    <li
+        *ngFor="let Character of CharacterList; let i = index"
+        class="list-group-item">
+        <span> {{ i + 1 }}. </span>
+        {{ Character.name }}
+        -
+        <strong>{{ Character.power }}</strong>
+    </li>
+</ul>

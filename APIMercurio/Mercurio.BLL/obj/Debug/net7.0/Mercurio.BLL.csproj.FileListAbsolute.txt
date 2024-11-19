@@ -1,0 +1,12 @@
+C:\Users\Michael_Rodriguez\source\repos\APIMercurio\Mercurio.BLL\bin\Debug\net7.0\Mercurio.BLL.deps.json
+C:\Users\Michael_Rodriguez\source\repos\APIMercurio\Mercurio.BLL\bin\Debug\net7.0\Mercurio.BLL.dll
+C:\Users\Michael_Rodriguez\source\repos\APIMercurio\Mercurio.BLL\bin\Debug\net7.0\Mercurio.BLL.pdb
+C:\Users\Michael_Rodriguez\source\repos\APIMercurio\Mercurio.BLL\obj\Debug\net7.0\Mercurio.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Michael_Rodriguez\source\repos\APIMercurio\Mercurio.BLL\obj\Debug\net7.0\Mercurio.BLL.AssemblyInfoInputs.cache
+C:\Users\Michael_Rodriguez\source\repos\APIMercurio\Mercurio.BLL\obj\Debug\net7.0\Mercurio.BLL.AssemblyInfo.cs
+C:\Users\Michael_Rodriguez\source\repos\APIMercurio\Mercurio.BLL\obj\Debug\net7.0\Mercurio.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Michael_Rodriguez\source\repos\APIMercurio\Mercurio.BLL\obj\Debug\net7.0\Mercurio.BLL.sourcelink.json
+C:\Users\Michael_Rodriguez\source\repos\APIMercurio\Mercurio.BLL\obj\Debug\net7.0\Mercurio.BLL.dll
+C:\Users\Michael_Rodriguez\source\repos\APIMercurio\Mercurio.BLL\obj\Debug\net7.0\refint\Mercurio.BLL.dll
+C:\Users\Michael_Rodriguez\source\repos\APIMercurio\Mercurio.BLL\obj\Debug\net7.0\Mercurio.BLL.pdb
+C:\Users\Michael_Rodriguez\source\repos\APIMercurio\Mercurio.BLL\obj\Debug\net7.0\ref\Mercurio.BLL.dll

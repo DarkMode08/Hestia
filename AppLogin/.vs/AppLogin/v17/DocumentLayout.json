@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Michael_Rodriguez\\source\\repos\\AppLogin\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C74A0333-2E65-446A-9D58-10873E24F17E}|AppLogin\\AppLogin.csproj|c:\\users\\michael_rodriguez\\source\\repos\\applogin\\applogin\\views\\employees\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C74A0333-2E65-446A-9D58-10873E24F17E}|AppLogin\\AppLogin.csproj|solutionrelative:applogin\\views\\employees\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C74A0333-2E65-446A-9D58-10873E24F17E}|AppLogin\\AppLogin.csproj|c:\\users\\michael_rodriguez\\source\\repos\\applogin\\applogin\\controllers\\accesscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C74A0333-2E65-446A-9D58-10873E24F17E}|AppLogin\\AppLogin.csproj|solutionrelative:applogin\\controllers\\accesscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C74A0333-2E65-446A-9D58-10873E24F17E}|AppLogin\\AppLogin.csproj|c:\\users\\michael_rodriguez\\source\\repos\\applogin\\applogin\\views\\employees\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C74A0333-2E65-446A-9D58-10873E24F17E}|AppLogin\\AppLogin.csproj|solutionrelative:applogin\\views\\employees\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C74A0333-2E65-446A-9D58-10873E24F17E}|AppLogin\\AppLogin.csproj|c:\\users\\michael_rodriguez\\source\\repos\\applogin\\applogin\\custom\\encryptionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,11 +22,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Michael_Rodriguez\\source\\repos\\AppLogin\\AppLogin\\Views\\Employees\\Edit.cshtml",
               "RelativeDocumentMoniker": "AppLogin\\Views\\Employees\\Edit.cshtml",
@@ -34,12 +38,7 @@
               "RelativeToolTip": "AppLogin\\Views\\Employees\\Edit.cshtml",
               "ViewState": "AgIAABgAAAAAAAAAAAAAACkAAAB1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-02T19:26:30.361Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "WhenOpened": "2024-11-02T19:26:30.361Z"
             },
             {
               "$type": "Document",
@@ -55,13 +54,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AccessController.cs",
               "DocumentMoniker": "C:\\Users\\Michael_Rodriguez\\source\\repos\\AppLogin\\AppLogin\\Controllers\\AccessController.cs",
               "RelativeDocumentMoniker": "AppLogin\\Controllers\\AccessController.cs",
               "ToolTip": "C:\\Users\\Michael_Rodriguez\\source\\repos\\AppLogin\\AppLogin\\Controllers\\AccessController.cs",
               "RelativeToolTip": "AppLogin\\Controllers\\AccessController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAwwBUAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAwwBUAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-02T14:52:36.936Z",
               "EditorCaption": ""
